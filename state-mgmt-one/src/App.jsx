@@ -4,6 +4,7 @@ import JsAndjsx from './JsAndjsx'
 import {FunctionalC, ClassComponent} from './FunctionalClass'
 import { FunctionComponent} from './FunctionComponent'
 import ClassComponentMain from './ClassComponentMain'
+import Parent from './PropsFunctional/Parent'
 
 function App() {
 
@@ -14,6 +15,7 @@ function App() {
       <ClassComponent></ClassComponent>
       <FunctionComponent></FunctionComponent>
       <ClassComponentMain></ClassComponentMain>
+      <Parent></Parent>
     </div>
    
   )
