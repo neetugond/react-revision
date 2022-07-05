@@ -2,6 +2,7 @@ import React from 'react'
 import './App.css'
 import JsAndjsx from './JsAndjsx'
 import {FunctionalC, ClassComponent} from './FunctionalClass'
+import { FunctionComponent } from './FunctionComponent'
 
 
 function App() {
@@ -11,6 +12,7 @@ function App() {
       <JsAndjsx />
       <FunctionalC></FunctionalC>
       <ClassComponent></ClassComponent>
+      <FunctionComponent></FunctionComponent>
     </div>
    
   )

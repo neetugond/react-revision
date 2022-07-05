@@ -15,8 +15,8 @@ const FunctionalC = () => {
     return (
     //   return html
       <div>
-        <p>--------------------</p>
-         <h1>Hello, Functional Component </h1>
+        <h1>---------Components and its type-----------</h1>
+         <h3>Hello, Functional Component </h3>
       </div>
    
   )
@@ -32,10 +32,11 @@ const FunctionalC = () => {
 
 // make class extend liya component ko from react
 class ClassComponent extends React.Component{
+  // render method return html element
   render(){
-    return <h1>
+    return <h3>
       Hello, class component
-    </h1>
+    </h3>
   }
 }
 
