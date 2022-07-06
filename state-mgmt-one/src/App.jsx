@@ -11,9 +11,15 @@ import StateClass from './state/StateClass'
 import ClassEventP from './eventHandleingParenthesis/ClassEventP'
 import { FunctionalEventP } from './eventHandleingParenthesis/FunctionalEventP'
 import EventThisBind from './eventHandleingParenthesis/EventThisBind'
+import Listmap from '../list/Listmap'
+import { ListKeyProp } from '../list/ListKeyProp'
+import ListKeyState from '../list/ListKeyState'
 function App() {
 
+  const number = [1, 2, 3, 4, 5];
+  const name = ['priyanka di', "satyam","me"]
   return (
+   
     <div className="App">
       <JsAndjsx />
       <FunctionalC></FunctionalC>
@@ -27,6 +33,9 @@ function App() {
       <ClassEventP></ClassEventP>
       <FunctionalEventP></FunctionalEventP>
       <EventThisBind name="priyanka satyam"></EventThisBind>
+      <Listmap numbers={number}></Listmap>
+      <ListKeyProp name={name}></ListKeyProp>
+      <ListKeyState></ListKeyState>
 
     </div>
    
