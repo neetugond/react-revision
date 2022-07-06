@@ -10,6 +10,7 @@ import { StateFunctional } from './state/StateFunctional'
 import StateClass from './state/StateClass'
 import ClassEventP from './eventHandleingParenthesis/ClassEventP'
 import { FunctionalEventP } from './eventHandleingParenthesis/FunctionalEventP'
+import EventThisBind from './eventHandleingParenthesis/EventThisBind'
 function App() {
 
   return (
@@ -25,6 +26,7 @@ function App() {
       <StateClass></StateClass>
       <ClassEventP></ClassEventP>
       <FunctionalEventP></FunctionalEventP>
+      <EventThisBind name="priyanka satyam"></EventThisBind>
 
     </div>
    

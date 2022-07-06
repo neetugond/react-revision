@@ -1,6 +1,6 @@
 import React from 'react';
 import {Child} from './Child'
-
+import EventThisBind from '../eventHandleingParenthesis/EventThisBind';
 class Parent extends React.Component{
     render() {
         return (
