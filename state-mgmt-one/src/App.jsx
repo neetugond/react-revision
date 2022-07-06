@@ -6,7 +6,10 @@ import { FunctionComponent} from './FunctionComponent'
 import ClassComponentMain from './ClassComponentMain'
 import FuncParent from './PropsFunctional/Parent'
 import ChildParent from './PropsClass/Parent'
-
+import { StateFunctional } from './state/StateFunctional'
+import StateClass from './state/StateClass'
+import ClassEventP from './eventHandleingParenthesis/ClassEventP'
+import { FunctionalEventP } from './eventHandleingParenthesis/FunctionalEventP'
 function App() {
 
   return (
@@ -18,6 +21,10 @@ function App() {
       <ClassComponentMain></ClassComponentMain>
       <FuncParent></FuncParent>
       <ChildParent></ChildParent>
+      <StateFunctional></StateFunctional>
+      <StateClass></StateClass>
+      <ClassEventP></ClassEventP>
+      <FunctionalEventP></FunctionalEventP>
 
     </div>
    
