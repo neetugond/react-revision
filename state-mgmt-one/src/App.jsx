@@ -22,6 +22,7 @@ import ClassHttpRequest from './httpGetRequest/ClassHttpRequest'
 import ClassHttpPost from './httpGetRequest/ClassHttpPost'
 import UseEffectHook from './functionalComponent/UseEffectHook'
 import UseStateHook from './functionalComponent/UseStateHook'
+import { UseState2, Counter } from './functionalComponent/UseState2'
 function App() {
 
   const number = [1, 2, 3, 4, 5];
@@ -53,6 +54,8 @@ function App() {
       {/* hooks*/}
       <UseStateHook></UseStateHook>
       <UseEffectHook></UseEffectHook>
+      <UseState2></UseState2>
+      <Counter></Counter>
 
     </div>
    
