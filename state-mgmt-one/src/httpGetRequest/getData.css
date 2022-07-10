@@ -1,8 +1,8 @@
 .main-div{
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(5, 1fr);
     border: 2px solid green;
-    width: 80%;
+    /* width: 80%; */
     margin: auto;
     grid-gap: 2%;
 
@@ -17,6 +17,6 @@
 }
 
 .sub-div > img{
-    width: 200px;
+    width: 100px;
     margin: auto;
 }

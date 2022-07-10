@@ -1,4 +1,3 @@
-import { get } from 'mongoose';
 import React from 'react';
 import { useEffect } from 'react';
 import { useState } from 'react'
@@ -19,6 +18,7 @@ const GetData = () => {
     return (
        
         <div className='main-div'>
+            <h1>axios data fetch through useEffect and useState</h1>
             {data.map((el) => (
                 <div className='sub-div' key={el.id}>
                     <img src={el.image} alt="" />
