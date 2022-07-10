@@ -44,6 +44,7 @@ class ClassHttpRequest extends React.Component{
                             </h4>
                             </div>
                     )) : null}
+                {/* for showing error on ui */}
                 {
                     error ? <div>{ error}</div>:null
                 }

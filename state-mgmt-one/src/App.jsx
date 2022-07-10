@@ -19,6 +19,7 @@ import LifeCycle1 from './lifeCycle/LifeCycle1'
 import Product from './lifeCycle/Product'
 import GetData from './httpGetRequest/GetData'
 import ClassHttpRequest from './httpGetRequest/ClassHttpRequest'
+import ClassHttpPost from './httpGetRequest/ClassHttpPost'
 function App() {
 
   const number = [1, 2, 3, 4, 5];
@@ -46,6 +47,7 @@ function App() {
       <Product></Product>
       <GetData></GetData>
       <ClassHttpRequest></ClassHttpRequest>
+      <ClassHttpPost></ClassHttpPost>
 
     </div>
    
