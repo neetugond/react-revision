@@ -20,6 +20,8 @@ import Product from './lifeCycle/Product'
 import GetData from './httpGetRequest/GetData'
 import ClassHttpRequest from './httpGetRequest/ClassHttpRequest'
 import ClassHttpPost from './httpGetRequest/ClassHttpPost'
+import UseEffectHook from './functionalComponent/UseEffectHook'
+import UseStateHook from './functionalComponent/UseStateHook'
 function App() {
 
   const number = [1, 2, 3, 4, 5];
@@ -48,6 +50,9 @@ function App() {
       <GetData></GetData>
       <ClassHttpRequest></ClassHttpRequest>
       <ClassHttpPost></ClassHttpPost>
+      {/* hooks*/}
+      <UseStateHook></UseStateHook>
+      <UseEffectHook></UseEffectHook>
 
     </div>
    
