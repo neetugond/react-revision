@@ -1,0 +1,22 @@
+.main-div{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    border: 2px solid green;
+    width: 80%;
+    margin: auto;
+    grid-gap: 2%;
+
+}
+
+.sub-div{
+    display: grid;
+    /* background-color: bisque; */
+    border: 1px solid black;
+   
+
+}
+
+.sub-div > img{
+    width: 200px;
+    margin: auto;
+}

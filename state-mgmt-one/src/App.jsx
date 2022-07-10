@@ -11,9 +11,13 @@ import StateClass from './state/StateClass'
 import ClassEventP from './eventHandleingParenthesis/ClassEventP'
 import { FunctionalEventP } from './eventHandleingParenthesis/FunctionalEventP'
 import EventThisBind from './eventHandleingParenthesis/EventThisBind'
-import Listmap from '../list/Listmap'
-import { ListKeyProp } from '../list/ListKeyProp'
-import ListKeyState from '../list/ListKeyState'
+import Listmap from './list/Listmap'
+import { ListKeyProp } from './list/ListKeyProp'
+import ListKeyState from './list/ListKeyState'
+import Form from './form/Form'
+import LifeCycle1 from './lifeCycle/LifeCycle1'
+import Product from './lifeCycle/Product'
+import GetData from './httpGetRequest/GetData'
 function App() {
 
   const number = [1, 2, 3, 4, 5];
@@ -36,6 +40,10 @@ function App() {
       <Listmap numbers={number}></Listmap>
       <ListKeyProp name={name}></ListKeyProp>
       <ListKeyState></ListKeyState>
+      <Form></Form>
+      <LifeCycle1></LifeCycle1>
+      <Product></Product>
+      <GetData></GetData>
 
     </div>
    
