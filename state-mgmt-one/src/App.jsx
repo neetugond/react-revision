@@ -23,6 +23,7 @@ import ClassHttpPost from './httpGetRequest/ClassHttpPost'
 import UseEffectHook from './functionalComponent/UseEffectHook'
 import UseStateHook from './functionalComponent/UseStateHook'
 import { UseState2, Counter } from './functionalComponent/UseState2'
+import {UseStateWithObjectFunction,  UseStateWithObjectClass } from './functionalComponent/UseStateWithObject'
 function App() {
 
   const number = [1, 2, 3, 4, 5];
@@ -30,7 +31,7 @@ function App() {
   return (
    
     <div className="App">
-      <JsAndjsx />
+      {/* <JsAndjsx />
       <FunctionalC></FunctionalC>
       <ClassComponent></ClassComponent>
       <FunctionComponent></FunctionComponent>
@@ -52,11 +53,12 @@ function App() {
       <ClassHttpRequest></ClassHttpRequest>
       <ClassHttpPost></ClassHttpPost>
       {/* hooks*/}
-      <UseStateHook></UseStateHook>
+      {/* <UseStateHook></UseStateHook>
       <UseEffectHook></UseEffectHook>
       <UseState2></UseState2>
-      <Counter></Counter>
-
+      <Counter></Counter> */} 
+      <UseStateWithObjectFunction></UseStateWithObjectFunction>
+      <UseStateWithObjectClass></UseStateWithObjectClass>
     </div>
    
   )
