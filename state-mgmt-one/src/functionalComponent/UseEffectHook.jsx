@@ -6,6 +6,7 @@ const UseEffectHook = () => {
     const [name, setName] = useState("Priyanka")
     const [increment, setIncrement] = useState(0);
     const [decrement, setDecrement] = useState(0);
+    const [incTen, setIncTen] = useState(0)
 
     useEffect(() => {
 console.log('thank you')
@@ -26,8 +27,17 @@ console.log('thank you')
       
     }
 
-   const handelInc = () => {
-        setIncrement(increment+1)
+    const handelInc = () => {
+      setIncrement(increment+1)
+    }
+    
+    // previous state concept in useState value increment by 10 retain previous value
+    const handelIncByTen = () => {
+        for (let i = 0; i < 10; i++){
+            setIncTen(preCount => 
+                preCount +1
+            )
+        }
     }
 
 
@@ -38,7 +48,9 @@ console.log('thank you')
             <h3>{name}</h3>
             <button onClick={changeData}>Click me</button>
             <button onClick={handleDec} >Dec {decrement}</button>
-            <button onClick={handelInc} >Inc {increment}</button>
+            <button onClick={handelInc} >Inc{increment}</button>
+            {/* use state with previous state increment by 10 */}
+            <button onClick={handelIncByTen}>Inc by 10 - {incTen }</button>
         </>
     )
 }
