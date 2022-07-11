@@ -24,7 +24,7 @@ export const UseStateWithObjectFunction = () => {
     return (
         <>
             <form >
-                <h1>UseState with Object in function</h1>
+                <h1>Object update in function component with useState</h1>
                 <input type="text" name="fname" value={data.fname} onChange={changeInputFunc} />
                 <input type="text" name="lname" value={data.lname} onChange={changeInputFunc} />
             </form>
@@ -69,7 +69,7 @@ export class UseStateWithObjectClass extends React.Component {
         return (
             <>
                 <form>
-                <h1>UseState with Object in Class</h1>
+                <h1>Object update in Class component</h1>
                 <input type="text" name='firstname' value={firstname} onChange={this.changeInput} />
                     <input type="text" name='lastname' value={lastname} onChange={this.changeInput} />
                 </form>

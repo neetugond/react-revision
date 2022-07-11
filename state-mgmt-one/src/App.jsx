@@ -24,6 +24,7 @@ import UseEffectHook from './functionalComponent/UseEffectHook'
 import UseStateHook from './functionalComponent/UseStateHook'
 import { UseState2, Counter } from './functionalComponent/UseState2'
 import {UseStateWithObjectFunction,  UseStateWithObjectClass } from './functionalComponent/UseStateWithObject'
+import { UseStateWithArray } from './functionalComponent/UseStateWithArray'
 function App() {
 
   const number = [1, 2, 3, 4, 5];
@@ -59,6 +60,8 @@ function App() {
       <Counter></Counter> */} 
       <UseStateWithObjectFunction></UseStateWithObjectFunction>
       <UseStateWithObjectClass></UseStateWithObjectClass>
+      <UseStateWithArray></UseStateWithArray>
+    
     </div>
    
   )
